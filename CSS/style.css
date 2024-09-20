@@ -139,6 +139,9 @@ img{
 
 .row-footer{
     background-color: rgb(182, 249, 226);
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
 }
 
 
