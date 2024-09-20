@@ -39,10 +39,29 @@ img{
 
 .col-35{
     width: 35%;
-    background-color: ;
     background-color: pink;
     border: 1px dashed black;
 }
+
+.col-100{
+    width: 100%;
+    background-color: green;
+    border: 1px dashed black;
+}
+
+.col-2-6{
+    width: calc(100% / 6 * 2);
+    background-color: rgb(253, 181, 193);
+    border: 1px dashed black;
+}
+
+
+.col-1-6{
+    width: calc(100% / 6);
+    background-color: rgb(0, 247, 255);
+    border: 1px dashed white;
+}
+
 
 
 
@@ -71,8 +90,7 @@ img{
 /* MAIN */
 .layout-1{
     background-color: blue;
-    padding: 30px;
-    
+    padding: 30px; 
 }
 
 .main-section{
@@ -80,8 +98,7 @@ img{
     max-width: 700px;
     background-color: palevioletred;
     margin: auto;
-    border: 1px dashed black;
-    
+    border: 1px dashed black;   
 }
 
 
@@ -92,12 +109,38 @@ img{
 
 .main-layout{
     min-height: 300px;
+    border: 1px dashed black;
 }
 
 .layout-3{
     background-color: gray;
     padding: 30px;     
 }
+
+.body-layout{
+    min-height: 500px;
+}
+
+.layout-4{
+    padding: 30px;  
+    background-color: darkgrey;  
+}
+
+/* FOOTER */
+.main-footer{
+    background-color: darkgrey;
+    border-top: 1px solid white;
+}
+
+.bordo{
+    border: 1px dashed black;
+    background-color: palevioletred;
+}
+
+.row-footer{
+    background-color: rgb(182, 249, 226);
+}
+
 
 
 /* DEBUG RULES */
